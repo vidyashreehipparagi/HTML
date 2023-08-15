@@ -1,0 +1,41 @@
+﻿h1 {
+    color: blueviolet;
+}
+
+div {
+    color: white;
+    height: 73px;
+    width: 100%;
+    font-size: 31px;
+    font-family: cursive;
+    background-color:pink;
+    height: 57px;
+    margin: 50px 30px 20px 25px;
+    border: 2px solid blue;
+    padding: 29px 30px 10px 20px;
+    border-radius: 29px 36px;
+    box-shadow: 3px 3px 10px red;
+}
+
+.common-align {
+    text-align: center;
+}
+
+.backgroundColor {
+    background-color: red;
+}
+#check{
+    background-color:red;
+}
+#ext{
+    background-color:palevioletred;
+}
+h4{
+    background-color:chocolate;
+}
+.basic{
+    color:yellow;
+}
+
+
+
