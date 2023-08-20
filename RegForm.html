@@ -1,0 +1,119 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .form-control{
+            height:30px;
+            width:350px;
+        }
+        /*.div{
+            border:2px solid black;
+        }*/
+        .reg {
+            border: 2px solid black;
+            padding: 30px;
+            background-color:lightslategrey
+            /*background-image: url('login.jpg');
+         
+             background-repeat: no-repeat;
+            background-size: cover;*/
+        }
+        .form-center {
+            display: flex;
+            justify-content: center;
+             margin:50px 200px 50px 200px;
+            
+        }
+        #regform{
+            background-color:grey;
+            color:black;
+            font-style:bold;
+            text-align:center;
+            margin-top:10px;
+            height:50px;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <div id="regform">Registration Form</div>
+    <div class="form-center">
+       - <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+         <form class="reg">
+             <div class="mb-3">
+                 <label for="exampleInputEmail1" class="form-label">Email address</label>
+                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+             </div>
+             <div class="mb-3">
+                 <label for="exampleInputPassword1" class="form-label">Enter your Name</label>
+                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your name">
+             </div>
+             <div class="mb-3">
+                 <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+                 <input type="password" class="form-control" id="exampleInputPassword1">
+             </div>
+             <div class="mb-3">
+                 <label for="exampleInputPassword1" class="form-label">SSC Marks(percentage)</label>
+                 <input type="password" class="form-control" id="exampleInputPassword1">
+             </div>
+             <div class="mb-3">
+                 <label for="exampleInputPassword1" class="form-label">HSC/Diploma Marks(percentage)</label>
+                 <input type="password" class="form-control" id="exampleInputPassword1">
+             </div>
+             <div class="mb-3">
+                 <label for="exampleInputPassword1" class="form-label">Degree marks(percentage/CGPA)</label>
+                 <input type="password" class="form-control" id="exampleInputPassword1">
+             </div>
+             <div>
+                 <label>Gender</label>
+                 <div class="form-check">
+                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                     <label class="form-check-label" for="flexRadioDefault1">
+                         Female
+                     </label>
+                 </div>
+                 <div class="form-check">
+                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                     <label class="form-check-label" for="flexRadioDefault2">
+                         Male
+                     </label>
+
+                 </div>
+             </div><br />
+             <label>Date of Birth</label><br />
+             <input type="date" /><br /><br />
+             <!--<label>Year of passout</label>-->
+             <select class="form-select" aria-label="Default select example">
+                 <option selected>Year of passing</option>
+                 <option value="3">2011-18</option>
+                 <option value="1">2019</option>
+                 <option value="2">2020</option>
+                 <option value="3">2021</option>
+                 <option value="3">2022</option>
+                 <option value="3">2023</option>
+             </select>
+             <div class="mb-3">
+                 <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+             </div>
+             <div class="mb-3">
+                 <label for="formFileMultiple" class="form-label">Upload your resume</label>
+                 <input class="form-control" type="file" id="formFileMultiple" multiple>
+             </div>
+             <div class="mb-3 form-check">
+                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                 <label class="form-check-label" for="exampleCheck1">I accept terms and conditions</label>
+
+             </div>
+             <button type="submit" class="btn btn-primary">Submit</button>
+         </form>
+</div>
+</body>
+</html>
